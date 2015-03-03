@@ -82,13 +82,34 @@ body {
 }
 .landing-button{
   display: block;
-
+  width: 286px;
+  margin: 0 auto;
+  height: 70px;
+  text-align: center;
+  font-size: 34px;
+  line-height: 58px;
   color: #fff;
-  padding: 13px 54px;
+  padding: 0;
   background: linear-gradient(to bottom, #34ae22 0%,#6ed258 100%);
   box-shadow: inset 0px 1px 0px 0px rgba(112, 243, 84, 0.75);
   border: 6px solid rgba(0, 0, 0, 0.12);
   border-radius: 10px;
+}
+/*advantage*/
+.advantage{
+  background-color: #ececec;
+}
+/*footer*/
+footer{
+  background-color: #414141;
+}
+.copyright-text{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);;
+  font-size: 14px;
+  line-height: 31px;
 }
 
 
